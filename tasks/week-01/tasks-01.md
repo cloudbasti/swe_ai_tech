@@ -1,4 +1,4 @@
-# Week One Assignments
+# Week One: Getting Started with Cursor and Git
 
 ## Required Installations & Setup
 
@@ -130,7 +130,7 @@ Practice the following Git commands:
    - Check if JavaScript (Node.js) is installed
    - Have the AI verify the versions of both
 
-2. Installation Process (if needed)
+2. Installation Process
    - Enable web search in chat settings for up-to-date installation guides
    - Ask the AI about:
      - Package managers (npm for JavaScript, pip for Python)
