@@ -136,30 +136,29 @@ def hello_world():
 
 - [Markdown Guide](https://www.markdownguide.org/)
 
-## Using AI as Your Learning Partner
+## Quick Guide to Cursor's AI Features
 
-As you work through these exercises, you have access to AI tools that can assist you in your learning journey. Here's how to use AI effectively:
+Try these examples to explore Cursor's key features:
 
-### Best Practices for AI-Assisted Learning
-- **Step-by-Step Approach**: Don't ask AI to solve all tasks at once. Break down problems and work through them gradually to build understanding.
-- **Active Learning**: Use AI as a coding partner to discuss concepts, ask questions, and get explanations. This helps you learn the language more effectively.
-- **Think First**: Try to understand the problem and attempt a solution before asking AI for help. This builds problem-solving skills.
-- **Ask for Explanations**: When AI provides a solution, ask it to explain the code and concepts you don't understand.
-- **Iterate and Experiment**: Use AI to explore different approaches and understand trade-offs between solutions.
+### 1. Inline Code Completion
+```javascript
+function calculateT
+```
+Start typing code and watch Cursor suggest completions in real-time. Use Tab to accept or arrow keys to view alternatives.
 
-### What to Ask AI
-- Clarification of concepts
-- Code review and improvements
-- Debugging help
-- Best practices and conventions
-- Alternative approaches to problems
+### 2. Comment-Driven Generation
+```javascript
+// Create a function that validates an email address using regex
+```
+Write detailed comments to get Cursor to generate entire code blocks or tests.
 
-### What Not to Do
-- Don't ask AI to complete all exercises at once
-- Avoid copying solutions without understanding them
-- Don't skip the learning process by having AI do all the work
-
-Remember: AI is a tool to enhance your learning, not replace it. The goal is to become a better programmer by engaging actively with the material and using AI as a supportive learning partner.
+### 3. Chat for Help
+Ask the chat anything about your code:
+```
+"What's wrong with my regex pattern?"
+"How do I make this code more efficient?"
+"Explain how promises work in JavaScript"
+```
 
 ## Part 2: Code Snippets with JavaScript and Python
 
