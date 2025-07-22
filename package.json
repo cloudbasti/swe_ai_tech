@@ -1,0 +1,12 @@
+{
+  "name": "swe-ai-exercises",
+  "version": "1.0.0",
+  "description": "Software Engineering with AI Exercises",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+} 
