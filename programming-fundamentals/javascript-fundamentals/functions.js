@@ -12,6 +12,26 @@ function isFrontendDeveloper(user) {
     }
 }
 
+function meanSquareError(actual, predicted) {
+    return actual.map((value, index) => Math.pow(value - predicted[index], 2)).reduce((sum, value) => sum + value, 0) / actual.length;
+}
+
+// a function which calculates the area below a curve using the Riemann sum
+
+
+
+
+
+/**
+ * Removes an item from the shopping cart by its id.
+ * @param {Array} cart - The shopping cart array.
+ * @param {string|number} itemId - The id of the item to remove.
+ * @returns {Array} - A new cart array with the item removed.
+ */
+function removeItemFromCart(cart, itemId) {
+    return cart.filter(item => item.id !== itemId);
+}
+
 // Example: Simple for loop to count total items in shopping cart
 function countCartItems(cart) {
     let totalItems = 0;
