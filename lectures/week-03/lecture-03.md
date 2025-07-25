@@ -5,6 +5,7 @@ By the end of this lecture, students will be able to:
 - Apply prompt engineering fundamentals and best practices
 - Configure and use Cursor rules files effectively
 - Implement professional Git feature branch workflows
+- Understand the concepts of a REST API
 - Integrate AI tools with development workflows
 
 ## 🔧 Prerequisites

@@ -1,3 +1,4 @@
+---
 description: Universal rule for preserving existing content across the project
 globs: ["**/*"]
 alwaysApply: true
@@ -20,7 +21,4 @@ When modifying files:
 2. Add new content following current rules
 3. Merge without removing non-conforming content
 4. Document deviations in comments if necessary
-description:
-globs:
-alwaysApply: false
----
+
