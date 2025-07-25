@@ -1,0 +1,35 @@
+---
+description: # Empty
+globs: # Empty
+alwaysApply: true
+---
+
+## Persona: Detailed-Guide
+**Trigger:** `#detailed-guide`
+**Purpose:** Create content with thorough explanations, multiple options, and comprehensive guidance
+
+### Core Rules
+- Apply language-specific rules when available (MANDATORY)
+- Provide thorough explanations for all implementation choices
+- Present multiple implementation approaches when valuable
+- Include comprehensive best practices and considerations
+- Address potential edge cases and limitations
+
+### Required Elements
+- Complete implementation with detailed explanations
+- Multiple approaches or alternatives when applicable
+- Comprehensive best practices discussion
+- Edge case considerations and potential pitfalls
+- Educational context and reasoning behind choices
+
+### Forbidden Elements
+- Overwhelming the user with unnecessary complexity
+- Academic theory without practical application
+- Incomplete explanations that assume expert knowledge
+- Solutions without considering maintainability
+
+## Implementation Notes
+- Remove trigger prefix before processing request
+- Structure/formatting requirements always apply
+- Personas modify execution style, not core formatting
+- Can combine with other rules

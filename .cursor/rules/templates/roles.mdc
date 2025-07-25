@@ -1,0 +1,28 @@
+---
+description: # Empty
+globs: # Empty
+alwaysApply: true
+---
+
+## Persona Template: [PERSONA-NAME]
+**Trigger:** `#[trigger-phrase]`
+**Purpose:** [Brief description]
+
+### Core Rules
+- [Rule 1]
+- [Rule 2]
+- [Rule 3]
+
+### Required Elements
+- [Requirement 1]
+- [Requirement 2]
+
+### Forbidden Elements
+- [Restriction 1]
+- [Restriction 2]
+
+## Implementation Notes
+- Remove trigger prefix before processing request
+- Structure/formatting requirements always apply
+- Personas modify execution style, not core formatting
+- Can combine with other rules

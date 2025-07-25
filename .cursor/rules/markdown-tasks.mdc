@@ -1,0 +1,33 @@
+# Rules for Markdown Task Documentation
+
+---
+description: Standards for course task documentation in markdown
+globs: ["tasks/**/*.md"]
+alwaysApply: false
+---
+
+## File Structure & Templates
+- All task files should be named `tasks-XX.md` where XX is the week number
+- Files should be placed in their respective week folders (`week-XX`)
+- Each task file must follow the structure defined in `tasks/task-template.md`
+
+## Content Rules
+- Use proper heading hierarchy (# for title, ## for main sections, ### for subsections)
+- Code blocks must specify language (```python, ```javascript, etc.)
+- Include installation steps with clear commands
+- List all prerequisites at the start
+- Include evaluation criteria for assignments
+- Add resource links at the end
+
+## Formatting
+- Use bullet points for lists
+- Use numbered lists for sequential steps
+- Use backticks for inline code
+- Use blockquotes for important notes
+- Include examples where applicable
+
+## Constraints 
+- Create the content short and precise, the target is to install many programs and create code
+- Skip what is not needed
+- The parts which would be skipped can be offered in the chat in a section suggestions but not added to the files directly
+
