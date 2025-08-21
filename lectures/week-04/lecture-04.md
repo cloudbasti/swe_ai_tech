@@ -1,5 +1,34 @@
 # 📚 Week 04: Advanced Prompt Engineering with Rules and Templates
 
+## 📊 Course Themes Covered
+*Understanding how this lecture fits into the overall course architecture*
+
+<details>
+<summary>Main Themes in This Lecture</summary>
+
+### 🏗️ Software Engineering Principles
+**Focus: Template Systems & Reusability**
+- DRY principles applied to AI guidance
+- Standardized development patterns
+- Team consistency through shared conventions
+
+### 🤖 AI Driven Development  
+**Focus: Persona-Based Prompting Strategies**
+- AI communication style control
+- Context-aware prompt engineering
+- Strategic AI guidance integration
+
+### 📈 Advanced AI Integration
+**Focus: Rules-Persona Combination Techniques**
+- Layered AI control systems
+- Language-specific rule implementation
+- Multi-dimensional AI output optimization
+
+> 💡 **Integration Note**: This week advances AI-driven development by combining systematic rule application with strategic prompt engineering, creating sophisticated AI assistance frameworks for professional development workflows.
+</details>
+
+---
+
 ## 🎯 Learning Objectives
 By the end of this lecture, students will be able to:
 - Distinguish between persona-based prompting and language-specific rules
@@ -19,6 +48,7 @@ By the end of this lecture, students will be able to:
 </details>
 
 ## 📖 Part 1: AI Guidance Types - Personas vs Language Rules
+*Advanced AI Integration: Multi-Dimensional Control Systems*
 
 ### ⭐ Key Concepts
 <details>
@@ -166,6 +196,7 @@ def update_user_full(user_id):
 </details>
 
 ## 📖 Part 2: Combining Prompt Engineering with Rules
+*Advanced AI Integration: Strategic Layered Approaches*
 
 ### Part 2A: Persona-Rule Integration
 <details>
@@ -249,6 +280,7 @@ export const Button: React.FC<ButtonProps> = ({ variant, onClick }) => {
 </details>
 
 ## 📖 Part 3: Templating and Reusability Principles
+*Software Engineering Principles: Standardization & DRY Methodology*
 
 ### ⭐ Key Concepts
 <details>

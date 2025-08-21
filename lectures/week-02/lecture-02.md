@@ -1,11 +1,41 @@
 # 📚 Week 02: Markdown and Development Tools
 
+## 📊 Course Themes Covered
+*Understanding how this lecture fits into the overall course architecture*
+
+<details>
+<summary>Main Themes in This Lecture</summary>
+
+### 🏗️ Software Engineering Principles
+**Focus: Documentation & Professional Standards**
+- Markdown for technical documentation
+- Documentation as code principles
+- Professional writing standards
+
+### 🤖 AI Driven Development  
+**Focus: Cursor AI Features**
+- AI-assisted coding and writing
+- Smart autocomplete and suggestions
+- AI-powered development workflow
+
+### 📈 Advanced AI Integration
+**Focus: Prompt Engineering Fundamentals**
+- Effective AI communication techniques
+- Prompt structure and optimization
+- Chain of thought prompting methods
+
+> 💡 **Integration Note**: This week combines traditional software engineering practices (documentation) with AI-driven development tools and advanced prompt engineering techniques, creating a comprehensive foundation for modern development workflows.
+</details>
+
+---
+
 ## 🎯 Learning Objectives
 By the end of this lecture, students will be able to:
 - Understand and use Markdown syntax for documentation
 - Create well-formatted technical documentation
 - Master Cursor's AI features for efficient development
-- Apply best practices in technical writing
+- Apply prompt engineering fundamentals for effective AI communication
+- Combine documentation skills with AI-assisted development workflows
 
 ## 🔧 Prerequisites
 <details>
@@ -16,7 +46,9 @@ By the end of this lecture, students will be able to:
 - GitHub account (from Week 1)
 </details>
 
+
 ## 📖 Part 1: Markdown Essentials
+*Software Engineering Principles: Documentation*
 
 ### ⭐ Key Concepts
 <details>
@@ -100,6 +132,7 @@ def hello_world():
 </details>
 
 ## 📖 Part 2: Cursor AI Features
+*AI Driven Development: Enhanced Productivity*
 
 ### ⭐ Key Concepts
 <details>
@@ -174,6 +207,82 @@ Best practices for chat interactions:
 > 💡 **Tip**: Use the chat history to track the evolution of your solution and revisit previous explanations.
 </details>
 
+## 📖 Part 3: Prompt Engineering Fundamentals
+*Advanced AI Integration: Effective Communication*
+
+### ⭐ Key Concepts
+<details>
+<summary>Core Concepts Overview</summary>
+
+- **Prompt Components**
+  - Clear and specific instructions
+  - Context and background information
+  - Expected output format
+- **Chain of Thought Prompting**
+  - Step-by-step reasoning process
+  - Breaking down complex problems
+  - Logical progression of ideas
+- **Few-shot Learning Examples**
+  - Providing examples for guidance
+  - Pattern recognition through examples
+  - Consistent formatting demonstrations
+- **Temperature and Creativity Settings**
+  - Controlling randomness in responses
+  - Balancing creativity with accuracy
+  - Optimizing for specific use cases
+
+> 💡 **Key Point**: Specificity and context are crucial for effective AI communication
+</details>
+
+### 💻 Best Practices Examples
+<details>
+<summary>Implementation Examples</summary>
+
+```markdown
+# Good Prompt Structure
+Context: I'm building a REST API with Flask
+Task: Create a user authentication endpoint
+Requirements: 
+- Include input validation
+- Return proper HTTP status codes
+- Handle errors gracefully
+Format: Provide complete Python code with comments
+```
+
+```markdown
+# Chain of Thought Example
+Please solve this step by step:
+1. First, analyze the requirements
+2. Then, design the endpoint structure
+3. Finally, implement with error handling
+```
+
+> ⚠️ **Common Mistake**: Vague prompts lead to generic, unhelpful responses
+</details>
+
+### 🏃 Hands-on Activity
+<details>
+<summary>Activity: Prompt Refinement Practice</summary>
+
+#### Steps:
+1. Write a basic prompt for a coding task
+2. Identify missing context and specificity
+3. Refine the prompt using best practices
+4. Compare results between versions
+
+> 📝 **Note**: Document the differences in response quality for future reference
+</details>
+
+### 💭 Discussion
+<details>
+<summary>Discussion Topics</summary>
+
+- Key Question: How does prompt specificity affect AI output quality?
+- Follow-up Questions:
+  - When should you use few-shot vs zero-shot prompting?
+  - How do you balance creativity with accuracy in prompts?
+</details>
+
 ## 📚 Additional Resources
 <details>
 <summary>Learning Materials</summary>
@@ -186,6 +295,11 @@ Best practices for chat interactions:
 ### Cursor Resources
 - [Cursor Documentation](https://cursor.sh/docs)
 - [Cursor Shortcuts Reference](https://cursor.sh/docs/shortcuts)
+
+### Prompt Engineering Resources
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [OpenAI Best Practices](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903)
 </details>
 
 <!-- 

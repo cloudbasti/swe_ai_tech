@@ -1,8 +1,36 @@
 # 📚 Week 03: Prompt Engineering, Cursor Rules & Git Workflows
 
+## 📊 Course Themes Covered
+*Understanding how this lecture fits into the overall course architecture*
+
+<details>
+<summary>Main Themes in This Lecture</summary>
+
+### 🏗️ Software Engineering Principles
+**Focus: Development Workflow & Version Control**
+- Professional Git feature branch workflows
+- Industry-standard version control practices
+- Code review and collaboration processes
+
+### 🤖 AI Driven Development  
+**Focus: Cursor Rules & Configuration**
+- Custom rules file creation and management
+- AI-assisted development environment setup
+- Intelligent code style enforcement
+
+### 📈 Software Engineering & Architecture 
+**Focus: REST API Design & Implementation**
+- RESTful architecture principles and best practices
+- HTTP methods and status code implementation
+- Professional API development patterns
+
+> 💡 **Integration Note**: This week bridges traditional software engineering workflows (Git branching, REST APIs) with AI-enhanced development tools (Cursor rules), establishing the foundation for scalable team development practices.
+</details>
+
+---
+
 ## 🎯 Learning Objectives
 By the end of this lecture, students will be able to:
-- Apply prompt engineering fundamentals and best practices
 - Configure and use Cursor rules files effectively
 - Implement professional Git feature branch workflows
 - Understand the concepts of a REST API
@@ -18,83 +46,9 @@ By the end of this lecture, students will be able to:
 - Basic programming concepts
 </details>
 
-## 📖 Part 1: Prompt Engineering Fundamentals
-<!-- Understanding how to effectively communicate with AI tools -->
 
-### ⭐ Key Concepts
-<details>
-<summary>Core Concepts Overview</summary>
-
-- **Prompt Components**
-  - Clear and specific instructions
-  - Context and background information
-  - Expected output format
-- **Chain of Thought Prompting**
-  - Step-by-step reasoning process
-  - Breaking down complex problems
-  - Logical progression of ideas
-- **Few-shot Learning Examples**
-  - Providing examples for guidance
-  - Pattern recognition through examples
-  - Consistent formatting demonstrations
-- **Temperature and Creativity Settings**
-  - Controlling randomness in responses
-  - Balancing creativity with accuracy
-  - Optimizing for specific use cases
-
-> 💡 **Key Point**: Specificity and context are crucial for effective AI communication
-</details>
-
-### 💻 Best Practices Examples
-<details>
-<summary>Implementation Examples</summary>
-
-```markdown
-# Good Prompt Structure
-Context: I'm building a REST API with Flask
-Task: Create a user authentication endpoint
-Requirements: 
-- Include input validation
-- Return proper HTTP status codes
-- Handle errors gracefully
-Format: Provide complete Python code with comments
-```
-
-```markdown
-# Chain of Thought Example
-Please solve this step by step:
-1. First, analyze the requirements
-2. Then, design the endpoint structure
-3. Finally, implement with error handling
-```
-
-> ⚠️ **Common Mistake**: Vague prompts lead to generic, unhelpful responses
-</details>
-
-### 🏃 Hands-on Activity
-<details>
-<summary>Activity: Prompt Refinement Practice</summary>
-
-#### Steps:
-1. Write a basic prompt for a coding task
-2. Identify missing context and specificity
-3. Refine the prompt using best practices
-4. Compare results between versions
-
-> 📝 **Note**: Document the differences in response quality for future reference
-</details>
-
-### 💭 Discussion
-<details>
-<summary>Discussion Topics</summary>
-
-- Key Question: How does prompt specificity affect AI output quality?
-- Follow-up Questions:
-  - When should you use few-shot vs zero-shot prompting?
-  - How do you balance creativity with accuracy in prompts?
-</details>
-
-## 📖 Part 2: Rules Files with Cursor
+## 📖 Part 1: Rules Files with Cursor
+*AI Driven Development: Configuration & Environment Setup*
 <!-- Configuring development environment with custom rules -->
 
 ### ⭐ Key Concepts
@@ -157,7 +111,8 @@ alwaysApply: false
 > 📝 **Note**: Start with simple rules and gradually add complexity
 </details>
 
-## 📖 Part 3: Professional Git Feature Branch Workflow
+## 📖 Part 2: Professional Git Feature Branch Workflow
+*Software Engineering Principles: Version Control & Collaboration*
 <!-- Implementing industry-standard version control practices -->
 
 ### ⭐ Key Concepts
@@ -235,7 +190,8 @@ git commit -m "docs: update API documentation"
   - How do you handle merge conflicts effectively?
 </details>
 
-## 📖 Part 4: REST API Theory & Implementation
+## 📖 Part 3: REST API Theory & Implementation
+*Software Engineering & Architecture: RESTful Design Patterns*
 <!-- Understanding RESTful architecture principles and practical endpoint design -->
 
 ### ⭐ Key Concepts
@@ -505,7 +461,7 @@ curl -X DELETE http://localhost:5000/users/1
 ### Optional Further Reading
 - [Advanced Git Workflows](https://nvie.com/posts/a-successful-git-branching-model/)
 - [AI-Assisted Development Best Practices](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/)
-- [HTTP Status Codes Reference](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [HTTP Status Codes Reference](https://developer.mozilla.org/docs/Web/HTTP/Status)
 - [API Design Patterns](https://microservice-api-patterns.org/)
 </details>
 
@@ -527,4 +483,4 @@ Students will practice integrating these three concepts by:
 - Prepare development environment with Cursor rules
 - Practice prompt engineering techniques
 - Preview API development concepts
-</details>
+</details> 
